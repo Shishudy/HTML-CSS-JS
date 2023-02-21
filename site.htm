@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<title>Hello World</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+a:link {
+	color:blue;
+	background-color:#f44336;
+	border: 2px solid blue;
+	padding:10px 20px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+}
+
+a:visited {
+	color:purple;
+	background-color:#f44336;
+	border: 2px solid blue;
+	padding:10px 20px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+}
+
+a:hover {
+	color:green;
+	background-color:red;
+	text-decoration:underline;
+}
+
+a:active {
+	color:red;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+body {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/1200px-42_Logo.svg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1 {
+	background-color:orange;
+	color:blue;
+	font-family:courier;
+	font-size:150%;
+	text-align:center;
+}
+
+p {
+	color:green;
+	border: 2px solid blue;
+	padding: 30px;
+	margin: 50px;
+}
+
+table {
+	border-spacing: 3px;
+}
+
+th, td {
+	border:1px solid white;
+	border-radius: 10px;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 15px;
+}
+
+th:nth-child(odd), td:nth-child(even){
+	background-color: orange;
+}
+
+th:nth-child(even), td:nth-child(odd){
+	background-color: red;
+}
+
+tr:hover {background-color: green;}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	color:white;
+	display: block;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: green;
+}
+
+</style>
+</head>
+<body>
+<h1>Agora o fundo e laranja mas as letras sao azuis, com um font e tamanho diferentes e centrado</h1>
+<p>Mas continuo a odiar este teclado, nao tem acentos :(</p>
+<p>Tenho aqui uma fotografia de um gatinho so para ti: <a href="https://www.zooplus.pt/magazine/wp-content/uploads/2021/03/kitten-sitzt-boden-768x512-1.jpeg" target="_blank"><img src="https://www.zooplus.pt/magazine/wp-content/uploads/2021/03/kitten-sitzt-boden-768x512-1.jpeg" alt="Gatinho" width="150" height="100"></a></p>
+<p>Ou clica aqui -> <button onclick="js.file">Gatinho</button>
+<p>Para enviar para o meu mail <a href="mailto:rafael.carvalh2012@gmail.com">aqui</a></p>
+<p>Mas para que ver noutra pagina se podes ver aqui, nao e</p>
+<p style="background-color:tomato;">Update: o fundo devera ser cor de tomate - Portanto aqui tens o gatinho depois de um line break:<br></p>
+<hr>
+<pre style="font-size:14px;">^
+|
+Esta linha e um hr (horizontal rule)</pre>
+<p><strong style="color:red;">strong :(<br></strong>
+<p><b style="color:green;">bold</b></p>
+<p><i title="Isto e um tooltip">Isto e um paragrafo em italico com um tooltip</i></p>
+<p>Isto e um <i>paragrafo</i> com algo em italico</p>
+<p><em>Isto e um <i>paragrafo</i> com emphasis</em></p>
+<p><i>Isto e um paragrafo com italico</i></p>
+<p><small>Small text</small></p>
+<p>Isto e um paragrafo <mark>mark</mark>ed </p>
+<p><del>Isto e um paragrafo deleted</del> <ins>Isto e um paragrafo que foi inserido<ins></p>
+<p>H<sub>2</sub>O e muito boa, mas nao quando ao <sup>2</sup></p>
+<p>Como dizia um velho sabio:</p>
+<blockquote>Litro e meio de agua ao dia, o bem que te fazia</blockquote>
+<p>Quase o mesmo que <q>One apple a day keeps the doctor away</q></p>
+<p>Isto e um <abbr title="Paragrafo Com Abbreviation">PCA</abbr></p>
+<address>Rafael Carvalho<br>Estudante na:<br>42lisboa.com<br>Lisboa<br>Portugal<br></address>
+<p><bdo dir="rtl">Este texto esta da direta para a esquerda<br></bdo></p>
+<p><bdo dir="rtl">adreuqse a arap aterid ad atse otxet etsE</bdo></p>
+<!--Feito no 18/02/2023-->
+<p>Isto e um paragrafo com uma imagem floated para a esquerda<img src="https://super.abril.com.br/wp-content/uploads/2016/11/gatinhos-filhotes-reconhecem-a-voz-da-prc3b3pria-mc3a3e.jpg?quality=90&strip=info&w=1024&resize=1200,800" alt="Gatinho2" style="float:left;width:42px;height:42px;"></p>
+<p><img src="https://super.abril.com.br/wp-content/uploads/2016/11/gatinhos-filhotes-reconhecem-a-voz-da-prc3b3pria-mc3a3e.jpg?quality=90&strip=info&w=1024&resize=1200,800" alt="Gatinho2" style="float:right;width:42px;height:42px;">Isto e um paragrafo com uma imagem floated para a direita</p>
+<p>Tenta clicar em cada um <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png" alt="HTML, CSS, JS" style="width:350px;height:300px" usemap="#csshtmljs">
+	<map name="csshtmljs">
+		<area shape="poly" coords="38,115,113,115,121,196,85,205,47,196" alt="CSS"
+		href="https://www.w3schools.com/css/default.asp" target="_blank" onclick="popup(0)">
+		<area shape="poly" coords="114,104,236,104,226,211,175,224,124,211" alt="HTML"
+		href="https://www.w3schools.com/html/default.asp" target="_blank" onclick="popup(1)">
+		<area shape="poly" coords="237,115,310,115,302,195,264,205,227,196" alt="Javascript"
+		href="https://www.w3schools.com/js/default.asp" target="_blank" onclick="popup(2)">
+	</map>
+	<script>
+		function popup(arg) {
+			if (arg == 0)
+				alert("You clicked on CSS");
+			if (arg == 1)
+				alert("You clicked on HTML");
+			if (arg == 2)
+				alert("You clicked on Javascript");
+		}
+		</script>
+</p>
+<p style="background-image: url('https://forum.pt.grepolis.com/data/avatars/o/15/15441.jpg?1654894001'); width:575px; height:323px;">Isto é chad</p>
+<picture>
+	<source media="(min-width: 1500px)" srcset="https://i.ytimg.com/vi/yh59FEUOWxQ/maxresdefault.jpg">
+	<source media="(min-width: 800px)" srcset="https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Ffacebook%2F000%2F043%2F518%2Frearrangingfurniture.jpg">
+	<source media="(min-width: 465px)" srcset="https://i.kym-cdn.com/entries/icons/original/000/025/054/SOMEBODY_TOUCHA_MY_SPAGHET.PNG">
+	<img src="https://i.kym-cdn.com/entries/icons/original/000/025/054/SOMEBODY_TOUCHA_MY_SPAGHET.PNG" style="width:350px;height:300px">
+</picture>
+<table>
+	<caption>Equipa maravilha</caption>
+	<tr>
+		<th>Nome</th>
+		<th>Apelido</th>
+		<th colspan="2">Ocupação</th>
+		<th>Data de Nascimento</th>
+	</tr>
+	<tr>
+		<td>Rafael</td>
+		<td>Carvalho</td>
+		<td>Estudante</td>
+		<td>Trabalhador</td>
+		<td>24/02/2001</td>
+	</tr>
+	<tr>
+		<td>Israel</td>
+		<td>Oriente</td>
+		<td>Estudante</td>
+		<td>Trabalhador</td>
+		<td>11/02/????</td>
+	</tr>
+	<tr>
+		<td>Ezequiel</td>
+		<td>Santos</td>
+		<td>Estudante</td>
+		<td>Trabalhador</td>
+		<td>??/??/????</td>
+	</tr>
+</table>
+<!--Feito no 19/02/2023-->
+<dl>
+	<dt>Minitalk</dt>
+	<dd>-projeto fixe</dd>
+	<dt>so_long</dt>
+	<dd>-estou entusiasmado em fazer</dd>
+	<dt>push_swap</dt>
+	<dd>-merda de projeto</dd>
+</dl>
+<ul>
+	<li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+	<li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+	<li><a href="https://www.w3schools.com/js/default.asp">Javascritpt</a></li>
+</ul>
+<!-- Ficheiro acaba aqui -->
+<p>Site <cite>The Test</cite> por Rafael Carvalho, 2023</p>
+</body>
+</html>
